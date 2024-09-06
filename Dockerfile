@@ -1,4 +1,4 @@
-FROM golang:1.20.1 AS builder
+FROM golang:1.22.7 AS builder
 
 WORKDIR /usr/src/app
 COPY hellofc.go .
